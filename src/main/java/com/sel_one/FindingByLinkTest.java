@@ -10,7 +10,7 @@ import java.util.List;
 public class FindingByLinkTest {
 
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver", "/Users/suzan/Documents/CHROME_DRIVER/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/Users/************/CHROME_DRIVER/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.w3schools.com/");
 		driver.manage().window().maximize();
