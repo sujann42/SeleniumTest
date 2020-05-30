@@ -10,7 +10,7 @@ public class LaunchChrome {
 		createAndRunChromeDriver();
 	}
 	public static void createAndRunChromeDriver() {
-		System.setProperty("webdriver.chrome.driver", "/Users/suzan/Documents/CHROME_DRIVER/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/Users/************/CHROME_DRIVER/chromedriver");
 		WebDriver driver = new ChromeDriver();
 	}
 
